@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\myHeader">
+      <UniqueIdentifier>{f5b10cc8-145d-4e3b-8ec0-2a7ccde386b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\myHeader\Useful">
+      <UniqueIdentifier>{29a88812-03d8-4479-bfd8-c1aee632548c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\myHeader\MathOperation">
+      <UniqueIdentifier>{72ffecd8-d57b-4411-a428-e47edc27c35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Projecter">
+      <UniqueIdentifier>{a69425f7-b3bf-401c-aedf-23479e57108c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Projecter.cpp">
+      <Filter>ヘッダー ファイル\Projecter</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="point.h">
+      <Filter>ヘッダー ファイル\myHeader\MathOperation</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>ヘッダー ファイル\myHeader\MathOperation</Filter>
+    </ClInclude>
+    <ClInclude Include="warning.h">
+      <Filter>ヘッダー ファイル\myHeader\Useful</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>ヘッダー ファイル\myHeader\MathOperation</Filter>
+    </ClInclude>
+    <ClInclude Include="Projecter.h">
+      <Filter>ヘッダー ファイル\Projecter</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjecterCarib.h">
+      <Filter>ヘッダー ファイル\Projecter</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjecterFieldState.h">
+      <Filter>ヘッダー ファイル\Projecter</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjecterUtils.h">
+      <Filter>ヘッダー ファイル\Projecter</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjecterDispImage.h">
+      <Filter>ヘッダー ファイル\Projecter</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjecterTeisuu.h">
+      <Filter>ヘッダー ファイル\Projecter</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="myMutex.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
